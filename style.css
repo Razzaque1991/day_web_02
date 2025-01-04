@@ -1,0 +1,68 @@
+/*        bannar-section       */
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner_div{
+    background-image: url('../day_web_02/images/images2/images3/pexels-photo-260922.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.slid{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgb(28, 201, 28);
+}
+.mq{
+    margin-top: 30px;
+}
+/*           about-section       */
+.about-section, .food-div, .food-menu, .food-list{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.about-heading,.food-heading, .food-iteam{
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 20px;
+    background-color: gray;
+    border: 2px solid black;
+    padding: 1dvh;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.about-text{
+    font-size: 20px;
+}
+.galary-div{
+margin-top: 30px;
+}
+.card1, .card2, .card3, .card4{
+    width: 280px;
+   display: inline-block;
+   margin-top: 30px;
+   text-align: center;
+}
+.food-heading{
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+ol li{
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: rgb(223, 21, 21);
+    color: white;
+    border-radius: 50%;
+    margin-top: 30px;
+  }
+  
+
